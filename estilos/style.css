@@ -9,15 +9,20 @@
 }
 
 html, body{
-  height: 100vh;
-  background: linear-gradient(to bottom , rgb(0, 0, 0) , rgb(0, 0, 41));
+  height: 270vh;
+  background-color: black;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 header{
+  background-color: rgb(1, 1, 53);
   height: 10vh;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  margin-bottom: 30px;
+  border: 1px solid white;
 }
 
 header a{
@@ -31,6 +36,47 @@ header a:hover{
   background-color: rgb(45, 45, 124);
   border: 1px solid white;
 }
+
 img{
-  width: 200px;
+  width: 300px;
+  height: 410px;
+  margin-bottom: 8px;
 }
+
+.container{
+  height: 90vh;
+  display: grid;
+  grid-template-columns: repeat(3, 20%);
+  grid-template-rows: repeat(5,80%);
+  gap: 20px;
+  justify-content: center;
+}
+
+.card{
+  border: 1px solid gray;
+  border-radius: 10px;
+  background-color: rgb(1, 1, 53);
+}
+
+.card:hover{
+  box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.493);
+}
+.card h1{
+  background-color:rgb(20, 20, 20);
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 10px;
+  text-align: center;
+}
+
+.card p{
+  text-align: center;
+  font-size: 14px;
+}
+
+.card a{
+  text-decoration: none;
+}
+
+
+
