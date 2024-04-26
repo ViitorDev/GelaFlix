@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+
+*{
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body{
+  height: 100vh;
+  background: linear-gradient(to bottom , rgb(0, 0, 0) , rgb(0, 0, 41));
+}
+
+header{
+  height: 10vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+header a{
+    text-decoration: none;
+    border: 1px solid rgb(45, 45, 124);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+header a:hover{
+  background-color: rgb(45, 45, 124);
+  border: 1px solid white;
+}
+img{
+  width: 200px;
+}
