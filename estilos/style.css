@@ -79,6 +79,10 @@ header a:hover{
   box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.418);
 }
 
+img{
+  width: 337px;
+  height: 500px;
+}
 .card{
   
   display: grid;
@@ -86,6 +90,7 @@ header a:hover{
 }
 
 .card h1{
+  font-size: 18px;
   padding: 10px;
   text-align: center;
   border-top-left-radius: 10px;
