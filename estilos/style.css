@@ -80,10 +80,15 @@ img{
   width: 337px;
   height: 500px;
 }
+
 .card{
   
   display: grid;
   border-radius: 10px;
+}
+
+.card:hover{
+   
 }
 
 .card h1{
